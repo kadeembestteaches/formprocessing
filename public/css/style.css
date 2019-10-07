@@ -1,0 +1,13 @@
+body
+{
+    background-color: aqua;
+}
+
+
+.alert-error
+{
+    padding :1rem 2rem;
+    color :#ff0000;
+    margin:0 0 12px 0;
+    background-color:pink;
+}

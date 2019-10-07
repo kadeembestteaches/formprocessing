@@ -1,0 +1,25 @@
+<h1>Sending Message</h1>
+
+{{#each errors}}
+<div class="alert-error">
+    {{this}}
+</div>
+{{/each}}
+
+<form method="POST" action="/message">
+    
+    <label>Name</label>
+    <input type="text" name="fullName" placeholder="First Name"> <br><br>
+
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Email"> <br><br>
+
+    <label>Phone No</label>
+    <input type="text" name="phoneNo" placeholder="Phone No"> <br><br>
+    
+    <label>Message</label>
+    <textarea name="message"></textarea> <br><br>
+
+    <input type="submit" value="Send Message" id="subBut"/>
+
+</form>
